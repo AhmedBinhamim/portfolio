@@ -1,0 +1,24 @@
+/* hero.module.css */
+
+.heroContainer {
+    margin-left: 5%; 
+    margin-right: 5%;
+  }
+  
+.customButton {
+    background-color: #181818 !important; 
+    border-color:  #181818 !important; 
+    color: white; 
+  }
+  
+.customButton:hover {
+    background-color:  #000000 !important;  
+    color: white; 
+  }
+
+.content{
+    margin-top: 3em;
+}
+  
+
+  
