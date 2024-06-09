@@ -19,6 +19,15 @@
 .content{
     margin-top: 3em;
 }
+
+.text{
+  font-family: 'Roboto';
+  text-align: justify;
+}
+
+.title{
+  font-family: 'Roboto' !important;
+}
   
 
   

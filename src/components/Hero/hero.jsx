@@ -42,19 +42,19 @@ const Hero = () => {
           <div className={styles.content}>
           <div className="lc-block" >
             <div editable="rich">
-            <h2 className="rfs-25">Hi, I am Ahmed</h2>
+            <h2 className={`rfs-25" ${styles.title}`} >Hi, I am Ahmed</h2>
             </div>
           </div>
           </div>
           <div className="lc-block">
             <div editable="rich">
-              <p>Bachelor of Computer Science - Software Engineering graduate from Multimedia University, Malaysia with
+              <p className={styles.text}>Bachelor of Computer Science - Software Engineering graduate from Multimedia University, Malaysia with
                 a strong passion for software development. Skilled in various programming languages ranging from Front-end development to Back-end development Frameworks. Active Community service participant served as
-                𝗠𝗶𝗰𝗿𝗼𝘀𝗼𝗳𝘁 𝗟𝗲𝗮𝗿𝗻 𝗦𝘁𝘂𝗱𝗲𝗻𝘁 𝗔𝗺𝗯𝗮𝘀𝘀𝗮𝗱𝗼𝗿 and contributed to various community events.</p>
+                <b> Microsoft Learn Student Ambassador </b> and contributed to various community events.</p>
             </div>
           </div>
           <div className="lc-block">
-            <a className={`btn btn-primary btn-lg ${styles.customButton}`} href="#" role="button">Contact Us</a>
+            <a className={`btn btn-primary btn-lg ${styles.customButton}`} href="#" role="button">Contact Me</a>
           </div>
         </div>
       </div>
