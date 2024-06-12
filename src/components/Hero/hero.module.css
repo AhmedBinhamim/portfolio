@@ -4,7 +4,6 @@
     position: relative;
     overflow: hidden;
     color: white;
-    height: 500px;
   }
   
   .videoBackground {
@@ -23,13 +22,13 @@
   }
   
   .heroHeading {
-    font-family: 'Arial', sans-serif !important;
+    font-family: 'Ubuntu', sans-serif !important;
     font-size: 40px !important;
     color: white;
   }
   
   .heroContent {
-    font-family: 'Verdana', sans-serif !important;
+    font-family: 'Ubuntu', sans-serif !important;
     font-size: 16px !important;
     text-align: justify;
     color: white;
