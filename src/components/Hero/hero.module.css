@@ -1,33 +1,56 @@
-/* hero.module.css */
-
-.heroContainer {
-    margin-left: 5%; 
-    margin-right: 5%;
+.heroSection {
+    margin-top: 0;
+    padding-top: 0;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    height: 500px;
   }
   
-.customButton {
-    background-color: #181818 !important; 
-    border-color:  #181818 !important; 
-    color: white; 
+  .videoBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
   }
   
-.customButton:hover {
-    background-color:  #000000 !important;  
-    color: white; 
+  .heroContentContainer {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .heroHeading {
+    font-family: 'Arial', sans-serif !important;
+    font-size: 40px !important;
+    color: white;
+  }
+  
+  .heroContent {
+    font-family: 'Verdana', sans-serif !important;
+    font-size: 16px !important;
+    text-align: justify;
+    color: white;
   }
 
-.content{
-    margin-top: 3em;
-}
-
-.text{
-  font-family: 'Roboto';
-  text-align: justify;
-}
-
-.title{
-  font-family: 'Roboto' !important;
-}
+  .customPrimaryButton {
+    background-color: #cccccc !important;
+    color: black;
+    border-color: black  !important;
+  }
   
+  .customSecondaryButton {
+    background-color: #cccccc !important;
+    color: black;
+    border-color: black  !important;
+  }
 
+  .customPrimaryButton:hover,
+  .customSecondaryButton:hover {
+    color: black !important;
+    background-color: white !important;
+
+}
   
