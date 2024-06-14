@@ -44,7 +44,6 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <div className={styles.container}>
         <ul ref={menuRef} className={`${styles.menu} ${isMenuOpen ? styles.showMenu : ''}`}>
-          <a href='/'><li>Home</li></a>
           <a href='/about'><li>About Me</li></a>
           <a href='/skills'><li>Skills</li></a>
           <a href='/projects'><li>Projects</li></a>

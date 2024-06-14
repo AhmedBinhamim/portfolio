@@ -22,6 +22,7 @@
   }
   
   .heroHeading {
+    margin-top: 90px;
     font-family: 'Ubuntu', sans-serif !important;
     font-size: 40px !important;
     color: white;
@@ -29,7 +30,7 @@
   
   .heroContent {
     font-family: 'Ubuntu', sans-serif !important;
-    font-size: 18px !important;
+    font-size: 25px !important;
     text-align: justify;
     color: white;
   }
@@ -52,4 +53,16 @@
     background-color: white !important;
 
 }
-  
+
+@media (max-width: 830px) {
+
+  .heroHeading{
+    margin-top: 0px;
+    font-size: 25px !important;
+  }
+
+    
+  .heroContent {
+    font-size: 18px !important;
+  }
+}
