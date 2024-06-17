@@ -46,7 +46,7 @@ const Navbar = () => {
         <ul ref={menuRef} className={`${styles.menu} ${isMenuOpen ? styles.showMenu : ''}`}>
           <a href='/about'><li>About Me</li></a>
           <a href='#skills'><li>Skills</li></a>
-          <a href='/projects'><li>Projects</li></a>
+          <a href='#resume'><li>Experience</li></a>
           <a href='/contact'><li>Contact</li></a>
         </ul>
         {windowWidth <= 830 && (
