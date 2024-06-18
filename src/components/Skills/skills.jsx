@@ -2,21 +2,25 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faNodeJs, faJs, faShopify } from '@fortawesome/free-brands-svg-icons'; 
 import './skills.css'; 
-import expressIcon from './ex.png';
-import typescriptIcon from './typescript.png';
-import mongodbIcon from './mongodb.png';
-import mysqIcon from './mysql.png';
-import javaIcon from './java.png';
-import cIcon from './c.png';
-import pythonIcon from './python.png';
-import phpIcon from './php.png';
+import { getImageUrl } from '../../utilis';
 import { useInView } from 'react-intersection-observer';
 
 const Skills = () => {
+
   const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.1
   });
+
+  const expressIcon = getImageUrl('Skills/ex.png');
+  const typescriptIcon = getImageUrl('Skills/typescript.png');
+  const mongodbIcon = getImageUrl('Skills/mongodb.png');
+  const mysqIcon = getImageUrl('Skills/mysql.png');
+  const javaIcon = getImageUrl('Skills/java.png');
+  const cIcon = getImageUrl('Skills/c.png');
+  const pythonIcon = getImageUrl('Skills/python.png');
+  const phpIcon = getImageUrl('Skills/php.png');
+
 
   return (
     <>

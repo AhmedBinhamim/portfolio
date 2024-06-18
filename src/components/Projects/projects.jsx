@@ -1,13 +1,15 @@
 import React from 'react';
-import styles from './projects.module.css';
-import shurfanProject from './shurfan-project.png'
-import alshurfanProject from './AlShurfan-project.png'
-import gameProject from './Game-project.png'
-import cpuProject from './CPU-project.png'
-import hospitalProject from './Hospital-project.png'
-import healthProject from './MHealth-project.png'
+import { getImageUrl } from '../../utilis';
 
 const Projects = () => {
+
+  const shurfanProject = getImageUrl('Projects/shurfan-project.png')
+  const alshurfanProject = getImageUrl('Projects/AlShurfan-project.png')
+  const gameProject = getImageUrl('Projects/Game-project.png')
+  const cpuProject = getImageUrl('Projects/CPU-project.png')
+  const hospitalProject = getImageUrl('Projects/Hospital-project.png')
+  const healthProject = getImageUrl('Projects/MHealth-project.png')
+
   return (
     <>
       <section className="py-3 py-md-5" id='projects'>
