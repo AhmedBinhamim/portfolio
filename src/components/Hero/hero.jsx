@@ -21,8 +21,8 @@ const Hero = () => {
               Microsoft Learn Student Ambassador and contributed to various community events.
             </p>
             <div className="d-grid gap-2 d-sm-flex">
-              <button type="button" className={`btn bsb-btn-xl rounded-pill ${styles.customPrimaryButton}`}>Contact</button>
-              <button type="button" className={`btn bsb-btn-xl rounded-pill ${styles.customSecondaryButton}`}>View Experience</button>
+              <a href="mailto:ahmedbinhamim@gmail.com" ><button type="button" className={`btn bsb-btn-xl rounded-pill ${styles.customPrimaryButton}`}>Contact</button></a>
+              <a href='#resume'><button type="button" className={`btn bsb-btn-xl rounded-pill ${styles.customSecondaryButton}`}>View Experience</button></a>
             </div>
           </div>
           <div className="col-12 col-lg-5 text-center">

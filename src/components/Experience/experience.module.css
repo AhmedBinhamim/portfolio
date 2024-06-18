@@ -2,7 +2,7 @@
   padding: 100px 0;
   position: relative;
   opacity: 0;
-  transform: translateY(-100px); /* Updated for top to bottom animation */
+  transform: translateY(-100px); 
   transition: opacity 1.0s ease-out, transform 1.0s ease-out;
 }
 
@@ -38,7 +38,7 @@
   background: #ffffff;
   box-shadow: 0 0 1.25rem rgba(31, 45, 61, 0.08);
   border-radius: 10px;
-  text-align: left; /* Ensuring text is aligned to the left inside the box */
+  text-align: left; 
 }
 
 .resume-box ul {
@@ -105,5 +105,5 @@
 
 .animate {
   opacity: 1;
-  transform: translateY(0); /* Updated for top to bottom animation */
+  transform: translateY(0); 
 }
