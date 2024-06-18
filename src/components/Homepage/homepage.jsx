@@ -3,16 +3,17 @@ import Navbar from '../Navbar/navbar';
 import Hero from '../Hero/hero';
 import Skills from '../Skills/skills';
 import Experience from '../Experience/experience';
-import Awards from '../Awards/awards'
+import Projects from '../Projects/projects';
+
 
 const Homepage = () => {
   return (
     <>
     <Navbar/>
     <Hero/>
-    <Skills/>
     <Experience/>
-    <Awards/>
+    <Skills/>
+    <Projects/>
     </>
   )
 }

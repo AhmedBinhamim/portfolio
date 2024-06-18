@@ -6,7 +6,7 @@ import maskImage from './hero-bg.png';
 
 const Hero = () => {
   return (
-    <section className={`bsb-hero-2 px-3 ${styles.heroSection}`}>
+    <section className={`bsb-hero-2 px-3 ${styles.heroSection}`} id='about'>
       <video className={styles.videoBackground} autoPlay loop muted>
         <source src={heroVideo} type="video/mp4" />
         Your browser does not support the video tag.

@@ -17,16 +17,17 @@ const Experience = () => {
       id="resume"
     >
       <div className="container">
-        <div className="row">
-          <div className="col-lg-6">
+        <div className="row justify-content-center">
+          <div className="col-lg-8 text-center">
             <div className={styles['section-title']}>
               <h2>Experience</h2>
+              <div className={styles['section-title-underline']}></div>
               <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites</p>
             </div>
           </div>
         </div>
-        <div className="row">
-          <div className="col-lg-6 m-15px-tb">
+        <div className="row justify-content-center">
+          <div className="col-lg-8 m-15px-tb">
             <div className={styles['resume-box']}>
               <ul>
                 <li>
