@@ -1,5 +1,3 @@
-# portfolio
-
 # Personal-Portfolio-boiler-plate
 
 ## [Live Demo ](https://ahmedbinhamim-portfolio.netlify.app/)
