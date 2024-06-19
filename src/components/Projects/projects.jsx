@@ -1,5 +1,6 @@
 import React from 'react';
 import { getImageUrl } from '../../utilis';
+import './projects.css'
 
 const Projects = () => {
 
@@ -29,7 +30,6 @@ const Projects = () => {
         </div>
 
         <div className="container overflow-hidden">
-
           <div className="row gy-4 gy-xxl-5">
             <div className="col-12 col-md-6 col-lg-4 d-flex">
               <article className="d-flex">
@@ -53,7 +53,7 @@ const Projects = () => {
                         <a className="link-dark link-opacity-100 link-opacity-75-hover text-decoration-none" href="https://shurfan.com" target='_blank'>Shurfan Perfumes Website</a>
                       </h2>
                     </div>
-                    <p className="card-text entry-summary text-secondary m-0 p-0" style={{ textAlign: 'justify' }}>
+                    <p className="card-text entry-summary text-secondary m-0 p-0 text-black" style={{ textAlign: 'justify' }}>
                       Developed and Designed Shurfan Perfumes Website. The frameworks used were React.JS & Node.js. Also, Integrated DNS Management system to host website content and email services.
                     </p>
                   </div>
@@ -82,7 +82,7 @@ const Projects = () => {
                         <a className="link-dark link-opacity-100 link-opacity-75-hover text-decoration-none" href="https://alshurfan.com/" target='blank'>AlShurfan Advanced Real Estate</a>
                       </h2>
                     </div>
-                    <p className="card-text entry-summary text-secondary m-0 p-0" style={{ textAlign: 'justify' }}>
+                    <p className="card-text entry-summary text-secondary m-0 p-0 text-black" style={{ textAlign: 'justify' }}>
                      Developed and Designed website for AlShurfan Advanced Real Estate. The project was aiming to give brand identity and provide insights about services and projects provided by the organisation
                     </p>
                   </div>
@@ -112,7 +112,7 @@ const Projects = () => {
                         <a className="link-dark link-opacity-100 link-opacity-75-hover text-decoration-none" href="https://github.com/AhmedBinhamim/Mars-Rover-Game-C-" target='_blank'>Mars Rover C++ Game</a>
                       </h2>
                     </div>
-                    <p className="card-text entry-summary text-secondary m-0 p-0" style={{ textAlign: 'justify' }}>
+                    <p className="card-text entry-summary text-secondary m-0 p-0 text-black" style={{ textAlign: 'justify' }}>
                     The game Mars Rover typically involves the player controlling a rover that has just landed in mars. The mission of the rover is to collect all the gold on mars as was specified by the NASA headquarters on Earth, for research purposes.
                     </p>
                   </div>
@@ -141,7 +141,7 @@ const Projects = () => {
                         <a className="link-dark link-opacity-100 link-opacity-75-hover text-decoration-none" href="https://github.com/AhmedBinhamim/Simulation-of-CPU-Scheduling-Algorithms-Using-Java" target='_blank'>CPU Schedulling Algorithms</a>
                       </h2>
                     </div>
-                    <p className="card-text entry-summary text-secondary m-0 p-0" style={{ textAlign: 'justify' }}>
+                    <p className="card-text entry-summary text-secondary m-0 p-0 text-black" style={{ textAlign: 'justify' }}>
                     The process scheduling algorithms are used to maximize CPU utilization by increasing throughput.This project involves three process scheduler to come up with a simulator. These types are Non-Preemptive SJF, Preemptive SJF, and Round Robin.
                     </p>
                   </div>
@@ -170,7 +170,7 @@ const Projects = () => {
                         <a className="link-dark link-opacity-100 link-opacity-75-hover text-decoration-none" href="https://github.com/AhmedBinhamim/Hospital-Kiosk-Simulator" target='_blank'>Hospital Kiosk Simulator</a>
                       </h2>
                     </div>
-                    <p className="card-text entry-summary text-secondary m-0 p-0" style={{ textAlign: 'justify' }}>
+                    <p className="card-text entry-summary text-secondary m-0 p-0 text-black" style={{ textAlign: 'justify' }}>
                     The program displays a welcome message to the user and promotes him to enter the number of patients to simulate in the system then promotes the user to input the type of random number generator from a list of two choices displayed which are linear congruential generator and random variate generator for uniform distribution.
                     </p>
                   </div>
@@ -199,15 +199,13 @@ const Projects = () => {
                         <a className="link-dark link-opacity-100 link-opacity-75-hover text-decoration-none" href="https://github.com/AhmedBinhamim/M-Health-Research" target='_blank'>Mobile Health Research</a>
                       </h2>
                     </div>
-                    <p className="card-text entry-summary text-secondary m-0 p-0" style={{ textAlign: 'justify' }}>
+                    <p className="card-text entry-summary text-secondary m-0 p-0 text-black" style={{ textAlign: 'justify' }}>
                     Despite the rapid development and use of mHealth applications, users actually lose interest after a certain period of time. This is a major problem that must be resolved as understanding how to support and meet user requirements is the key factor. This project , backed-up with data, provides a solution for this problem
                     </p>
                   </div>
                 </div>
               </article>
             </div>
-
-
           </div>
         </div>
       </section>
