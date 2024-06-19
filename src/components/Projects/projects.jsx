@@ -26,7 +26,6 @@ const Projects = () => {
     }}></div>
   </div>
 </div>
-
         </div>
 
         <div className="container overflow-hidden">
@@ -142,7 +141,7 @@ const Projects = () => {
                       </h2>
                     </div>
                     <p className="card-text entry-summary text-secondary m-0 p-0 text-black" style={{ textAlign: 'justify' }}>
-                    The process scheduling algorithms are used to maximize CPU utilization by increasing throughput.This project involves three process scheduler to come up with a simulator. These types are Non-Preemptive SJF, Preemptive SJF, and Round Robin.
+                    The process scheduling algorithms are used to maximize CPU utilization by increasing throughput. This project involves three process scheduler to come up with a simulator. These types are Non-Preemptive SJF, Preemptive SJF, and Round Robin.
                     </p>
                   </div>
                 </div>
