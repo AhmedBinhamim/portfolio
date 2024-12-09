@@ -61,6 +61,22 @@ const Experience = () => {
                   <h5>Al Shurfan Advanced Real Estate</h5>
                   <p>Developed a dynamic website for Al Shurfan Advanced Real Estate using React.js, with integrated DNS management for seamless domain connectivity.</p>
                 </li>
+                <li>
+                  <div className={styles.icon}>
+                    <i className="fas fa-briefcase"></i>
+                  </div>
+                  <span className={styles.time}>Freelancer</span>
+                  <h5>Go-Hearing Clinic</h5>
+                  <p>Developed an Appointment Booking System for Go-Hearing Clinic using Wordpress, Amelia plugin , and PHP. The appointment system allows appointment request, booking, confirmation and lab reports update</p>
+                </li>
+                <li>
+                  <div className={styles.icon}>
+                    <i className="fas fa-briefcase"></i>
+                  </div>
+                  <span className={styles.time}>Freelancer</span>
+                  <h5>Kaanwala Clinic</h5>
+                  <p>Developed a website for Kaanwala Clinic that demonstrates the clinic services and allow customers to book appointments</p>
+                </li>
               </ul>
             </div>
           </div>
